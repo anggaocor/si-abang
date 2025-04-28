@@ -20,6 +20,10 @@ interface DataPohon {
   created_at: string;
 }
 
+<button onClick={() => document.body.classList.toggle('dark')}>
+  Toggle Dark Mode
+</button>
+
 export default function Home() {
   const [formData, setFormData] = useState({
     nama_pemohon: "",
